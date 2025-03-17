@@ -1,0 +1,86 @@
+/* General Styles */
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: #0b3d91;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(45deg, #1a1a1a, #0b3d91);
+  }
+  
+  h1, h2, h3 {
+    color: #ffd700;
+  }
+  
+  /* Orbit Container */
+  .orbit-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .planet {
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .planet:hover {
+    transform: scale(1.1);
+  }
+  
+  .planet img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  /* Pricing Section */
+  #pricing {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .package {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+  }
+  
+  .price {
+    font-size: 1.5em;
+    color: #ffd700;
+  }
+  
+  /* Dashboard Section */
+  #dashboard {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #countdown {
+    font-size: 2em;
+    color: #ffd700;
+  }
+  
+  #ai-tip {
+    font-style: italic;
+  }
+  
+  /* Animations */
+  @keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .planet {
+    animation: float 3s infinite;
+  }

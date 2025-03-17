@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dubai to the Stars – The Ultimate Space Travel Experience</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1>Dubai to the Stars</h1>
+    <p>Your journey to the cosmos begins here.</p>
+  </header>
+
+  <!-- Trip Scheduling & Booking Section -->
+  <section id="trip-booking">
+    <h2>Plan Your Space Adventure</h2>
+    <div class="orbit-container">
+      <div class="planet" data-destination="moon">
+        <img src="moon.png" alt="Moon">
+        <p>Moon</p>
+      </div>
+      <div class="planet" data-destination="mars">
+        <img src="mars.png" alt="Mars">
+        <p>Mars</p>
+      </div>
+      <div class="planet" data-destination="iss">
+        <img src="iss.png" alt="International Space Station">
+        <p>ISS</p>
+      </div>
+    </div>
+    <div id="hotel-list" class="hidden">
+      <h3>Available Hotels</h3>
+      <ul id="hotels"></ul>
+    </div>
+  </section>
+
+  <!-- Pricing & Packages Section -->
+  <section id="pricing">
+    <h2>Travel Packages</h2>
+    <div class="package">
+      <h3>Economy Shuttle</h3>
+      <p>Affordable and comfortable.</p>
+      <p class="price">$50,000</p>
+    </div>
+    <div class="package">
+      <h3>Luxury Cabin</h3>
+      <p>Exclusive and spacious.</p>
+      <p class="price">$150,000</p>
+    </div>
+    <div class="package">
+      <h3>VIP Zero-Gravity Experience</h3>
+      <p>Unmatched luxury and thrill.</p>
+      <p class="price">$500,000</p>
+    </div>
+  </section>
+
+  <!-- User Dashboard Section -->
+  <section id="dashboard">
+    <h2>Your Space Travel Dashboard</h2>
+    <div id="profile">
+      <h3>Welcome, Space Traveler!</h3>
+      <p>Launch Countdown: <span id="countdown">00:00:00</span></p>
+      <p>AI Travel Tip: <span id="ai-tip">Loading...</span></p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
